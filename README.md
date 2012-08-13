@@ -23,9 +23,10 @@ It's only two steps.
 FAQ and Advanced Features
 ---------------
 1. How does trnslt choose the default lanugage?
-   trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add the following block before adding **trnslt** to the top of your site.
-   
-   `<script>var trnsltDefaultLanguage = "de"; </script>`
+
+   > trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add the following block before adding **trnslt** to the top of your site.
+   >
+   > `<script>var trnsltDefaultLanguage = "de"; </script>`
    
 2. What happens if I add **trnslt** to a page without any `trnslt` classes?
 
