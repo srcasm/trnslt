@@ -3,6 +3,7 @@
 
 **trnslt** provides a simple and flexible way of sharing localized and translated versions of your site with almost no coding skills and no changes to the backend of your website.
 
+*trnslt is not for automatically translating your site. It's useful when you've got someone who is going to create a localized version of your content. You can use trnslt to offer two versions of your site without any major overhauls.*
 
 How to use trnslt on your site
 -----------
