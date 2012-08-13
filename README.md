@@ -9,7 +9,7 @@ How to use trnslt on your site
 
 * It's super easy. Simply download trnslt.js and put it on your site or include the following in your header on your site:
 
-`<script type="text/javascript" src="http://trnslt.srcasm.com/trnslt.js"></script>`
+   `<script type="text/javascript" src="http://trnslt.srcasm.com/trnslt.js"></script>`
 
 * There's only one more step, add the proper classes to your page.
 
