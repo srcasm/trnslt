@@ -19,6 +19,15 @@ It's actually only two steps.
 
 3. You thought there would be a step 3. Seriously, that's it. Now browse to your site and add `?trnslt=de` to your URL to see the German version.
 
+
+FAQ and Advanced Features
+---------------
+1. How does trnslt choose the default lanugage?
+   >trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add <script>var trnsltDefaultLanguage = "de"; </script> before including trsnlt at the top of your site.
+2. What happens if I add trnslt to a page without any `trnslt` classes?
+   >Don't worry, if we find no blocks with the class of `trnslt` we won't do anything to your page.
+
+
 Twitter account
 ---------------
 
