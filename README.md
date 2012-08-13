@@ -30,7 +30,13 @@ FAQ and Advanced Features
    
 2. What happens if I add **trnslt** to a page without any `trnslt` classes?
 
-   Don't worry, if we find no blocks with the class of `trnslt` we won't do anything to your page.
+   > Don't worry, if we find no blocks with the class of `trnslt` we won't do anything to your page.
+   
+3. What if I'd like to have **trnslt** work with subdomains instead of a query string?
+
+   > Glad you asked! You don't have to change a thing if you'd already got wildcard DNS setup. If you don't, follow [this guide](http://ma.tt/2003/10/wildcard-dns-and-sub-domains/) and you're good to go.
+   >
+   >Visit your site by going to `http://de.yoursite.com` and voila, your lanugage shows up.
 
 
 Twitter account
