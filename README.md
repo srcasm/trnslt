@@ -1,13 +1,13 @@
 [trnslt](http://trnslt.com)
 =================
 
-trnslt provides a simple and flexible way of sharing localized and translated versions of your site with almost no coding skills and no changes to the backend of your website.
+**trnslt** provides a simple and flexible way of sharing localized and translated versions of your site with almost no coding skills and no changes to the backend of your website.
 
 
 How to use trnslt on your site
 -----------
 
-It's actually only two steps.
+It's only two steps.
 
 1. Simply download **trnslt.js** and put it on your site or include the following in your header on your site:
    `<script type="text/javascript" src="http://trnslt.srcasm.com/trnslt.js"></script>`
@@ -24,10 +24,11 @@ FAQ and Advanced Features
 ---------------
 1. How does trnslt choose the default lanugage?
 
-   trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add:
+   trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add the following block before adding **trnslt** to the top of your site.
+   
    `<script>var trnsltDefaultLanguage = "de"; </script>`
-   before including trsnlt at the top of your site.
-2. What happens if I add trnslt to a page without any `trnslt` classes?
+   
+2. What happens if I add **trnslt** to a page without any `trnslt` classes?
 
    Don't worry, if we find no blocks with the class of `trnslt` we won't do anything to your page.
 
