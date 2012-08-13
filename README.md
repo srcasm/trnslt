@@ -7,16 +7,17 @@ trnslt provides a simple and flexible way of sharing localized and translated ve
 How to use trnslt on your site
 -----------
 
-It's super easy. Simply download **trnslt.js** and put it on your site or include the following in your header on your site:
+It's actually only two steps.
 
+1. Simply download **trnslt.js** and put it on your site or include the following in your header on your site:
    `<script type="text/javascript" src="http://trnslt.srcasm.com/trnslt.js"></script>`
 
-**The rest is cake!**
-* Add the proper classes to your page. Add the class `trnslt` **and** any language you'd like. For example:
+2. Add the proper classes to your page. Add the class `trnslt` **and** any language you'd like. For example:
  * `en` for English
  * `fr` for French
  * `de` for German
-* That's it. Now browse to your site and add `?trnslt=de` to your URL to see the German version.
+
+3. You thought there would be a step 3. Seriously, that's it. Now browse to your site and add `?trnslt=de` to your URL to see the German version.
 
 Twitter account
 ---------------
