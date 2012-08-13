@@ -6,7 +6,6 @@
 
 How to use trnslt on your site
 -----------
-
 It's only two steps.
 
 1. Simply download **trnslt.js** and put it on your site or include the following in your header on your site:
@@ -18,6 +17,17 @@ It's only two steps.
  * `de` for German
 
 3. You thought there would be a step 3. Seriously, that's it. Now browse to your site and add `?trnslt=de` to your URL to see the German version.
+
+
+Show me an example, please
+-----------
+Easy, take a look at the example below where two paragraphs have been translated (one is the English version, one is German). You can also take a peek over on my [test page](http://srcasm.com/test-page/).
+
+English:
+`<div class="en trnslt">This is my English sentence.</div>`
+
+German:
+`<div class="de trnslt">Das ist mein deutscher satz.</div>`
 
 
 FAQ and Advanced Features
