@@ -2,7 +2,7 @@
  * trnslt.js v0.2
  * http://trnslt.com
  * ===================================================
- * Copyright 2012 Jesse Middleton
+ * Copyright 2014 Jesse Middleton
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
