@@ -24,12 +24,15 @@ Show me an example, please
 -----------
 Easy, take a look at the example below where two paragraphs have been translated (one is the English version, one is German).
 
-> ...
-> `<div class="content">
->   <div class="en trnslt">This is my English sentence.</div>
->   <div class="de trnslt">Das ist mein deutscher satz.</div>
-> </div>
-> ...`
+> `<html>`<br />
+> &nbsp;&nbsp;`<head>`<br />
+> &nbsp;&nbsp;&nbsp;&nbsp;`<script type="text/javascript" src="http://srcasm.github.io/trnslt/trnslt.js">`<br />
+> &nbsp;&nbsp;`</head>`<br />
+> &nbsp;&nbsp;`<body>`<br />
+> &nbsp;&nbsp;&nbsp;&nbsp;`<div class="en trnslt">This is my English sentence.</div>`<br />
+> &nbsp;&nbsp;&nbsp;&nbsp;`<div class="de trnslt">Das ist mein deutscher satz.</div>`<br />
+> &nbsp;&nbsp;`  </body>`<br />
+> `</html>`<br />
 
 Include that on a page with trnslt.js and you're all set. If you load the page with `?trnslt=de` as the query string you'll see the second div. Otherwise, you'll see the first.
 
