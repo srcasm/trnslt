@@ -9,8 +9,8 @@ How to use trnslt on your site
 -----------
 It's only two steps.
 
-1. Simply download **trnslt.js** and put it on your site or include the following in your header on your site:
-   `<script type="text/javascript" src="http://trnslt.srcasm.com/trnslt.js"></script>`
+1. Simply download **trnslt.js** and include it in the header:
+   `<script type="text/javascript" src="//yourdomain.com/trnslt.js"></script>`
 
 2. Add the proper classes to your page. Add the class `trnslt` **and** any language you'd like. For example:
  * `en` for English
@@ -22,20 +22,22 @@ It's only two steps.
 
 Show me an example, please
 -----------
-Easy, take a look at the example below where two paragraphs have been translated (one is the English version, one is German). You can also take a peek over on my [test page](http://srcasm.com/test-page/).
+Easy, take a look at the example below where two paragraphs have been translated (one is the English version, one is German).
 
-English:
-`<div class="en trnslt">This is my English sentence.</div>`
+> ...
+> `<div class="content">`
+> `  <div class="en trnslt">This is my English sentence.</div>`
+> `  <div class="de trnslt">Das ist mein deutscher satz.</div>`
+> `</div>`
+> `...`
 
-German:
-`<div class="de trnslt">Das ist mein deutscher satz.</div>`
-
+Include that on a page with trnslt.js and you're all set. If you load the page with `?trnslt=de` as the query string you'll see the second div. Otherwise, you'll see the first.
 
 FAQ and Advanced Features
 ---------------
 1. How does trnslt choose the default lanugage?
 
-   > trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add the following block before adding **trnslt** to the top of your site.
+   > trnslt will default to English (en) automatically. If you'd like to specify the default lanugage, simply add the following block before including **trnslt.js**.
    >
    > `<script>var trnsltDefaultLanguage = "de"; </script>`
    
@@ -67,7 +69,7 @@ Have a question? Email Jesse at jmiddleton -at- gmail -dot- com.
 Copyright and license
 ---------------------
 
-Copyright 2012 Jesse Middleton
+Copyright 2014 Jesse Middleton
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
